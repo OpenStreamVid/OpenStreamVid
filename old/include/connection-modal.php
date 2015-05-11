@@ -1,0 +1,40 @@
+<div id="connectionModal" class="reveal-modal" data-reveal>
+	<div id="form-container">
+		<form id="connection-form" method="POST">
+			<fieldset>
+				<legend>Connection</legend>
+
+				<label for="email">Email
+					<input type="text" name="idco" id="idco" placeholder="Write your email or nickname (ex : example@email.com or mynickname)">
+				</label>
+				<label for="password">Password
+					<input type="password"  name="passwordco" id="passwordco" placeholder="Write your password">
+					<a class="password-forgotten" href="password.php">?</a>
+				</label>
+				<br>
+				<div id="error-response">
+
+				</div>
+				<a href="register.php">If you don't have an account : <b>Register</b></a>
+			</fieldset>
+			<div class="modal-buttons">
+				<a type="submit" id="connect-button" class="button radius">Connect</a>
+				<a class="cancel-button button radius alert">Close</a>
+			</div>
+			<a class="close-reveal-modal">&#215;</a>
+		</form>
+	</div>
+	<div id="connection-loading">
+		<div class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</div>
+	<div id="connected" class="welcome-modal">
+		<fieldset>
+			<legend>Connected</legend>
+				<h2>You are now connected on <img src="img/site/logo2.png"/></h2>
+				<a href="" class="button radius">Close</a>
+		</fieldset>
+	</div>
+</div>

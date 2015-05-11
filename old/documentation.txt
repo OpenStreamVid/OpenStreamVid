@@ -1,0 +1,46 @@
+TODO
+send email to activate account
+Search for user too
+contact
+about
+site map
+upload on github
+follow channel
+forgotten password
+ajax JSON to favorites
+SSL
+
+
+Creative Commons
+
+replace Disqus by an open-source software like Discourse
+
+optimization of loading with YSlow
+
+qu’on puisse organiser mes vidéos de plusieurs manières différentes genre des filtres différents: les plus aimés, les moins aimés, par date d’ajout, ordre alphabétique ...
+
+
+http://stackoverflow.com/questions/11387113/php-file-upload-affected-or-not-by-max-input-time
+
+
+/*****
+**
+*****/
+
+foundation.css modification :
+has-tip lign 4156 
+ORIGINAL :	
+.has-tip {
+border-bottom: dotted 1px #cccccc;
+cursor: help;
+font-weight: bold;
+color: #333333; }
+.has-tip:hover, .has-tip:focus {
+border-bottom: dotted 1px #003f54;
+color: #008cba; }
+.has-tip.tip-left, .has-tip.tip-right {
+float: none !important; }
+
+tooltip lign 4175
+ORIGINAL :
+max-width: auto;

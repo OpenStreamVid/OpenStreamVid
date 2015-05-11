@@ -1,0 +1,3 @@
+ErrorDocument 404 /openstreamvid/404.php
+
+DirectoryIndex index.php index.html error.php
